@@ -1,0 +1,306 @@
+@media (max-width:1443px){
+    .right_img{
+        display: none;
+    }
+    .header__main__title{
+        margin: 0 auto;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .header__main__title h1{
+        width: 50%;
+        text-align: center;
+    }
+    .header__main__title p{
+        width: 50%;
+        text-align: center;
+    }
+    .header__main__contacts{
+        align-items: center;
+    }
+}
+@media (max-width:1333px) {
+    .header__main__title h1{
+        width: 90%;
+    }
+}
+@media (max-width:1209px){
+    .tools__items{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 40px;
+    }
+    .tools__item{
+        width: 45%;
+        margin: 0 auto;
+    }
+    .brand{
+        flex-wrap: wrap;
+    }
+    .brand__items{
+        padding: 30px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        height: 43vh;
+    }
+}
+@media (max-width:1167px){
+    .new__tools{
+        padding: 100px 0;
+        flex-direction: column;
+        gap: 80px;
+    }
+    .new__tools__title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .new__tools__title p {
+        text-align: center;
+    }
+    .new__tools__title button{
+        width: 50%;
+    }
+    .new__tools__right{
+        justify-content: center;
+    }
+    .new__tools__right .tools__item{
+        width: 45%;
+        transition: .4s;
+    }
+    .new__tools__right .tools__item:hover{
+        background: url('img/tools/Mask.svg');
+    }
+}
+@media (max-width:1050px){
+    .header__links{
+        display: none;
+    }
+    .burger{
+        display: block;
+        display: flex;
+        align-items: center;
+        height: 10vh;
+    }
+    .burger i {
+        font-size: 30px;
+        cursor: pointer;
+        color: rgba(255, 255, 255, 0.55);
+    }
+}
+@media (max-width:944px){
+    .new__tools__title{
+        width: 70%;
+        text-align: center;
+    }
+    .new__tools__title h1{
+        width: 100%;
+    }
+    .header__main__title h1{
+        width: 100%;
+        text-align: center;
+    }
+    .header__main__title p{
+        width: 100%;
+        text-align: center;
+    }
+    .tools__title h2{
+        text-align: center;
+        width: 100%;
+    }
+    .tools__title p{
+        text-align: center;
+        width: 100%;
+    }
+    .contact__items{
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .contact__item{
+        width: 40%;
+        gap: 5px;
+    }
+}
+@media (max-width:920px){
+    .workers{
+        flex-direction: column;
+        align-items: center;
+    }
+    .quot{
+        display: none;
+    }
+    .workers__right{
+        width: 100%;
+    }
+    .workers__right p {
+        text-align: center;
+        font-size: 16px;
+    }
+}
+@media (max-width:818px){
+    .tools__item{
+        width: 80%;
+        margin: 0 auto;
+        transition: .4s;
+    }
+    .tools__item:hover{
+        background: #32393d49;
+    }
+}
+@media (max-width:709px){
+    .new__tools__right .tools__item{
+        width: 100%;
+        transition: .4s;
+    }
+    .new__tools__right .tools__item:hover{
+        background: #32393d49;
+    }
+    .tools__item{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media (max-width:668px){
+    .header__main__title h1{
+        width: 100%;
+        font-size: 40px;
+    }
+    .header__main__title p{
+        font-size: 20px;
+    }
+}
+@media (max-width:639px) {
+    .new__tools__title button{
+        width: 60%;
+    }
+    .header_logInForm{
+        gap: 0px;
+    }
+}
+@media (max-width:532px){
+    .new__tools__title button{
+        width: 80%;
+    }
+    .contact__item{
+        width: 100%;
+        gap: 5px;
+    }
+    .header__main__title h1{
+        font-size: 35px;
+    }
+    .header__main__title p{
+        font-size: 18px;
+    }
+}
+@media (max-width:520px){
+    .header__main__button{
+        width: 450px;
+        height: 60px;
+    }
+    .new__tools__title{
+        width: 100%;
+    }
+    .brand__title{
+        text-align: center;
+    }
+    .vector_grey{
+        display: none;
+    }
+    .vector_grey__rotate{
+        display: none;
+    }
+}
+@media (max-width:470px){
+    .contact .header__logo{
+        display: flex;
+    }
+    .header__logo{
+        display: none;
+    }
+    .header_logInForm{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .header__main__title h1{
+        font-size: 32px;
+    }
+    .header__main__title p{
+        font-size: 16px;
+    }
+    .header__main__button{
+        width: 400px;
+        height: 60px;
+    }
+}
+@media (max-width:430px){
+    .header__main__title h1{
+        font-size: 30px;
+    }
+    .header__main__title p{
+        font-size: 16px;
+    }
+    .header__main__button{
+        width: 400px;
+        height: 60px;
+    }
+    .workers__left img{
+        width: 380px;
+    }
+}
+@media (max-width:410px){
+    .header__main__button img{
+        display: none;
+    }
+    .header__main__button{
+        width: 350px;
+        height: 60px;
+    }
+    .header__main__title h1{
+        text-align: left;
+        font-size: 28px;
+    }
+    .header__main__title p{
+        text-align: left;
+        font-size: 16px;
+    }
+}
+@media (max-width:380px){
+    .workers__left img{
+        width: 350px;
+    }
+    .header__main__button{
+        width: 300px;
+        height: 60px;
+    }
+    .header__main__button input{
+        width: 150px;
+    }
+    .header__main__button input::placeholder{
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .header__main__button .orange_bg {
+        padding: 8px 20px;
+        background: #e1581d;
+        border-radius: 8px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        transition: .4s;
+        cursor: pointer;
+    }
+}
+@media (max-width:350px){
+    .workers__left img{
+        width: 270px;
+    }
+}
